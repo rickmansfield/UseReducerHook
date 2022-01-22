@@ -8,8 +8,10 @@ const MainHeader = (props) => {
     <header className={classes['main-header']}>
       <div className='columns'>
         <h1>Your Company</h1>
-        <h3>Triple Crown Products Inc</h3>
-      </div>
+        <div>
+          <h4>Triple Crown Products Inc</h4>
+          </div>
+        </div>
       <Navigation isLoggedIn={props.isAuthenticated} onLogout={props.onLogout} />
     </header>
   );

@@ -20,7 +20,7 @@
   height: 1rem;
 }
 
-.main-header h3 {
+.main-header h4 {
   color: white;
 }
 
@@ -29,4 +29,13 @@
   flex-direction: column;
   justify-content: flex-start;
   
+}
+@media (max-width: 550px) {
+  .main-header h4 {
+    display: none;
+  }
+  .main-header h1 {
+    color: white;
+    height: 10%;
+  }
 }
