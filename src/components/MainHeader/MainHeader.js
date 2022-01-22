@@ -12,7 +12,7 @@ const MainHeader = (props) => {
           <h4>Triple Crown Products Inc</h4>
           </div>
         </div>
-      <Navigation isLoggedIn={props.isAuthenticated} onLogout={props.onLogout} />
+      <Navigation onLogout={props.onLogout} />
     </header>
   );
 };
